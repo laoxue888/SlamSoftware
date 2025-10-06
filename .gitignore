@@ -1,0 +1,8 @@
+/downloads
+.ipynb_checkpoints/
+build/
+devel/
+log/
+install/
+.virtual_documents/
+.vscode/
