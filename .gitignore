@@ -6,3 +6,4 @@ log/
 install/
 .virtual_documents/
 .vscode/
+.idea/
