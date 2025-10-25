@@ -7,3 +7,6 @@ install/
 .virtual_documents/
 .vscode/
 .idea/
+log/
+install/
+build/

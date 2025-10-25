@@ -88,7 +88,7 @@ def main():
     global args
     # 解析命令行参数
     parser = argparse.ArgumentParser(description='MQTT图像接收与显示程序')
-    parser.add_argument('--broker', type=str, default='172.17.0.3', help='MQTT服务器地址')
+    parser.add_argument('--broker', type=str, default='172.17.0.2', help='MQTT服务器地址')
     parser.add_argument('--port', type=int, default=1883, help='MQTT服务器端口')
     parser.add_argument('--topic', type=str, default='camera/image', help='订阅图像的MQTT话题')
     args = parser.parse_args()

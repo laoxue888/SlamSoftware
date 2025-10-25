@@ -21,7 +21,7 @@ def main():
     parser.add_argument('--broker', type=str, default='localhost', help='MQTT服务器地址')
     parser.add_argument('--port', type=int, default=1883, help='MQTT服务器端口')
     parser.add_argument('--topic', type=str, default='camera/image', help='发布图像的MQTT话题')
-    parser.add_argument('--camera', type=int, default=0, help='摄像头索引，默认0表示默认摄像头')
+    parser.add_argument('--camera', type=int, default=1, help='摄像头索引，默认0表示默认摄像头')
     parser.add_argument('--quality', type=int, default=90, help='JPEG图像质量，0-100')
     parser.add_argument('--interval', type=float, default=0.04, help='发布间隔时间(秒)')
     args = parser.parse_args()
