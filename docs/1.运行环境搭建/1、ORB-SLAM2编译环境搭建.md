@@ -128,6 +128,13 @@ vcpkg install paho-mqttpp3
 vcpkg install tinyxml2
 ```
 
+## g2o和ceres
+
+```shell
+vcpkg install g2o
+vcpkg install ceres
+```
+
 
 
 # ORB-SLAM2测试

@@ -10,3 +10,4 @@ install/
 log/
 install/
 build/
+__pycache__/
